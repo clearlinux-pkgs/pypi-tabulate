@@ -4,7 +4,7 @@
 #
 Name     : pypi-tabulate
 Version  : 0.8.9
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/ae/3d/9d7576d94007eaf3bb685acbaaec66ff4cdeb0b18f1bf1f17edbeebffb0a/tabulate-0.8.9.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ae/3d/9d7576d94007eaf3bb685acbaaec66ff4cdeb0b18f1bf1f17edbeebffb0a/tabulate-0.8.9.tar.gz
 Summary  : Pretty-print tabular data
@@ -15,10 +15,7 @@ Requires: pypi-tabulate-license = %{version}-%{release}
 Requires: pypi-tabulate-python = %{version}-%{release}
 Requires: pypi-tabulate-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: python-tabulate
-Provides: python-tabulate-python
-Provides: python-tabulate-python3
-BuildRequires : pytest
+BuildRequires : pypi-pytest
 
 %description
 ===============
@@ -71,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641485165
+export SOURCE_DATE_EPOCH=1650558285
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
