@@ -1,5 +1,5 @@
 PKG_NAME := pypi-tabulate
-URL = https://files.pythonhosted.org/packages/ae/3d/9d7576d94007eaf3bb685acbaaec66ff4cdeb0b18f1bf1f17edbeebffb0a/tabulate-0.8.9.tar.gz
+URL = https://files.pythonhosted.org/packages/7a/53/afac341569b3fd558bf2b5428e925e2eb8753ad9627c1f9188104c6e0c4a/tabulate-0.8.10.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
